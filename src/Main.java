@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ejercicio5();
+        ejercicio4();
     }
 
     public static void ejercicio1() {
@@ -65,7 +65,7 @@ public class Main {
 
     }
 
-    public static void ejerccio4() {
+    public static void ejercicio4() {
         //Precio de los vehiculos
         double precioCoche = 35.5;
         double precioMoto = 18.0;
