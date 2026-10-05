@@ -54,8 +54,9 @@ public class Main {
 
     public static void ejercicio3() {
         String vehiculo = "Ford Transit";
+        double precioFurgonete = 50.0;
         int uds = 5;
-        double subtotal = 250.0;
+        double subtotal = precioFurgonete*uds;
         double descuento = 10;
         double total = 250 * 0.9;
 
