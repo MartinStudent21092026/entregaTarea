@@ -41,13 +41,16 @@ public class Main {
         double precioMoto = 18.0;
         double precioPatinete = 8.5;
         double precioFurgoneta = 50.0;
+
         //Numero de vehículos alquilados
         int alquiCoche = 10;
         int alquiMoto = 15;
         int alquiPatinete = 20;
         int alquiFurgoneta = 17;
+
         //Ingresos totales en un dia
         double total = precioCoche * alquiCoche + precioMoto * alquiMoto + precioPatinete * alquiPatinete + precioFurgoneta * alquiFurgoneta;
+
         //Se imprime en consola los ingresos totales
         System.out.println("Ingresos totales: " + total + " €");
     }
@@ -60,6 +63,7 @@ public class Main {
         double precioFurgoneta = 50.0;
         double subtotal = precioFurgoneta * uds;
         double total = 250 * DESCUENTO;
+
         //Se imprime
         System.out.println("Vehículo: " + vehiculo + "\nUnidades: " + uds + "\nSubtotal: " + subtotal + " €\nDescuento: 10%" + "\nTotal: " + total + " €");
 
@@ -71,8 +75,10 @@ public class Main {
         double precioMoto = 18.0;
         double precioPatinete = 8.5;
         double precioFurgonete = 50.0;
+
         //Precio medio
         double precioMedio = (precioCoche + precioMoto + precioPatinete + precioFurgonete) / 4;
+
         //El precio medio se imprime
         System.out.println("Precio medio: " + precioMedio);
     }
@@ -83,15 +89,19 @@ public class Main {
         int alquiMoto = 15;
         int alquiPatinete = 20;
         int alquiFurgoneta = 17;
+
         //Total de vehículos alquilados
         int total = alquiCoche + alquiMoto + alquiPatinete + alquiFurgoneta;
+
         //Codigo para formatear los decimales a 2 digitos
         DecimalFormat df = new DecimalFormat("#.0");
+
         //Porcentajes de coches alquilados
         double porceCoche = ((double) alquiCoche / total) * 100;
         double porceMoto = ((double) alquiMoto / total) * 100;
         double porcePatinete = ((double) alquiPatinete / total) * 100;
         double porceFurgoneta = ((double) alquiFurgoneta / total) * 100;
+
         //Se imprime en consola los porcentajes
         System.out.println("Total vehículos: " + total + "\nCoches: " + df.format(porceCoche) + "%\nMotos: " + df.format(porceMoto) + "%\nPatinetes: " + df.format(porcePatinete) + "%\nFurgonetas: " + df.format(porceFurgoneta) + "%");
     }
