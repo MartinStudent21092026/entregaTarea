@@ -93,7 +93,7 @@ public class Main {
         //Total de vehículos alquilados
         int total = alquiCoche + alquiMoto + alquiPatinete + alquiFurgoneta;
 
-        //Codigo para formatear los decimales a 1 digitos
+        //Codigo para formatear los decimales a 1 digito
         DecimalFormat df = new DecimalFormat("#.0");
 
         //Porcentajes de coches alquilados
